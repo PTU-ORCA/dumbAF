@@ -13,6 +13,8 @@
             display: flex;
             flex-direction: column;
             background-color: white;
+            overflow-x: hidden;
+
         }
         .main-content {
             flex-grow: 1;
@@ -43,8 +45,10 @@
         }
         .buttons {
             display: flex;
+            flex-wrap: wrap;
             gap: 1rem;
             margin-bottom: 2rem;
+            justify-content: center;
         }
         .btn {
             padding: 0.5rem 1rem;
@@ -66,10 +70,58 @@
         .semester-row {
             margin-bottom: 1rem;
         }
-        .semester-link { /* New style for the text links */
+        .semester-link {
             color: blue;
             text-decoration: none;
             margin: 0 0.5rem;
+        }
+        footer {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #007bff; 
+            text-decoration: none;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1200px) {
+            .rancho {
+                font-size: 8rem;
+            }
+        }
+    
+        @media (max-width: 1024px) {
+            .rancho {
+                font-size: 8rem;
+            }
+        }
+        @media (max-width: 992px) {
+            .rancho {
+                font-size: 8rem;
+                }
+            }
+        @media (max-width: 768px) {
+            .rancho {
+                font-size: 6rem;
+            }
+            .btn {
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .ptu-orca {
+                font-size: 1.5rem;
+            }
+            .rancho {
+                font-size: 4rem;
+            }
+            .btn {
+                padding: 0.5rem;
+                font-size: 0.8rem;
+            }
         }
     </style>
 </head>
@@ -87,17 +139,17 @@
         </div>
         <div id="semesters" class="semester-container">
             <div class="semester-row">
-                <a href="#" class="semester-link">Sem 1</a>
-                <a href="#" class="semester-link">Sem 2</a>
-                <a href="#" class="semester-link">Sem 3</a>
-                <a href="#" class="semester-link">Sem 4</a>
+                <a href="DATA\sem1\sem1.html" class="semester-link">Sem 1</a>
+                <a href="DATA\sem2\sem2.html" class="semester-link">Sem 2</a>
+                <a href="DATA\sem3\sem3.html" class="semester-link">Sem 3</a>
+                <a href="DATA\sem4\sem4.html" class="semester-link">Sem 4</a>
             </div>
             <div class="semester-row">
-                <a href="#" class="semester-link">Sem 5</a>
-                <a href="#" class="semester-link">Sem 6</a>
+                <a href="DATA\sem5\sem5.html" class="semester-link">Sem 5</a>
+                <a href="DATA\sem6\sem6.html" class="semester-link">Sem 6</a>
             </div>
             <div class="semester-row">
-                <a href="#" class="semester-link">Sem 7</a>
+                <a href="DATA\sem7\sem7.html" class="semester-link">Sem 7</a>
             </div>
         </div>
     </div>
@@ -112,5 +164,9 @@
             }
         }
     </script>
+    <footer>
+        <p>Made with 💛 by <a href="https://github.com/ptu-orca" target="_blank" rel="noopener"> PTU ORCA </a></p>
+    </footer>
+
 </body>
 </html>
