@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTU ORCA RANCHO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        .main-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-container {
+            text-align: center;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        .ptu-orca {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 2rem;
+            color: #000;
+            position: absolute;
+            top: -40px;
+            left: 0;
+            width: 100%;
+        }
+        .rancho {
+            font-size: 24rem;
+            font-weight: bold;
+            color: black;
+            margin: 0;
+        }
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+        .semester-container {
+            display: none;
+            text-align: center;
+        }
+        .semester-row {
+            margin-bottom: 1rem;
+        }
+        .semester-link { /* New style for the text links */
+            color: blue;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="text-container">
+            <div class="ptu-orca">PTU ORCA</div>
+            <h1 class="rancho">RANCHO</h1>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="toggleSemesters('cse')">CSE</button>
+            <button class="btn" onclick="toggleSemesters('bca')">BCA</button>
+            <button class="btn" onclick="toggleSemesters('blank1')">Button 3</button>
+            <button class="btn" onclick="toggleSemesters('blank2')">Button 4</button>
+        </div>
+        <div id="semesters" class="semester-container">
+            <div class="semester-row">
+                <a href="#" class="semester-link">Sem 1</a>
+                <a href="#" class="semester-link">Sem 2</a>
+                <a href="#" class="semester-link">Sem 3</a>
+                <a href="#" class="semester-link">Sem 4</a>
+            </div>
+            <div class="semester-row">
+                <a href="#" class="semester-link">Sem 5</a>
+                <a href="#" class="semester-link">Sem 6</a>
+            </div>
+            <div class="semester-row">
+                <a href="#" class="semester-link">Sem 7</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSemesters(course) {
+            var semesterContainer = document.getElementById('semesters');
+            if (semesterContainer.style.display === 'none' || semesterContainer.style.display === '') {
+                semesterContainer.style.display = 'block';
+            } else {
+                semesterContainer.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

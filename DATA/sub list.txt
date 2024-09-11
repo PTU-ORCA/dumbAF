@@ -1,0 +1,94 @@
+Sem 1 (2023)
+
+Mathematics - 1  BTAM101-23
+Physics - BTPH101-23
+Physics Lab - BTPH102-23
+EGD( Engineering Graphical Design) - BTME101-21
+BEE( Basics of Electrical Engineering) - BTEE101-18
+BEE lab - BTEE102-18
+Mentoring and Professional Development - BMPD101-18
+
+
+Sem 2 (2023)
+
+English - BTHU101-18
+English Lab - BTHU102-18
+Mathematics - 2  BTAM201-23
+Chemistry- 1 - BTCH101-23
+Chemistry Lab - BTCH102-18
+Programming for Problem Solving - BTPS101-18
+Programming for Problem Solving (Lab) - BTPS102-18
+Workshop/Manufacturing Practices - BTMP101-18
+Mentoring and Professional Development - BMPD201-18
+
+
+----------------------------------------------------
+
+Sem 3 (2023)
+
+Digital Electronics (BTES 301-18)
+Data Structures & Algorithms (BTCS 301-18)
+Object-Oriented Programming (BTCS 302-18)
+Mathematics-III (Probability and Statistics) (BTAM 302-23)
+Foundation Course in Humanities (Development of Societies/Philosophy) (HSMC 101/102-18)
+Digital Electronics Lab (BTES 302-18)
+Data Structures & Algorithms Lab (BTCS 303-18)
+Object-Oriented Programming Lab (BTCS 304-18)
+IT Workshop (BTCS 305-18)
+Summer Institutional Training
+
+Sem 4 (2023)
+
+Discrete Mathematics (BTCS 401-18)
+Computer Organization & Architecture (BTES 401-18)
+Operating Systems (BTCS 402-18)
+Design & Analysis of Algorithms (BTCS 403-18)
+Universal Human Values (HSMC 122-18)
+Environmental Sciences (EVS 101-18)
+Computer Organization & Architecture Lab (BTES 402-18)
+Operating Systems Lab (BTCS 404-18)
+Design & Analysis of Algorithms Lab (BTCS 405-18)
+
+
+---------------------------------------------------------
+
+Sem 5 (2021)
+
+Enterprise Resource Planning (BTES 501-18)
+Database Management Systems (BTCS 501-18)
+Formal Language & Automata Theory (BTCS 502-18)
+Software Engineering (BTCS 503-18)
+Computer Networks (BTCS 504-18)
+Elective-I Python (BTCS 510-18)
+Constitution of India/ Essence of Indian Traditional Knowledge (MC)
+Database Management Systems Lab (BTCS 505-18)
+Software Engineering Lab (BTCS 506-18)
+Computer Networks Lab (BTCS 507-18)
+Elective-I Python Lab (BTCS 513-18)
+Industrial Training*
+
+
+Sem 6 (2021)
+
+Compiler Design (BTCS 601-18)
+Artificial Intelligence (BTCS 602-18)
+Elective-II Cloud Computing (BTCS 612-18)
+Elective-III Mobile Application Development (BTCS 620-18)
+Open Elective-I (BTOE ***)
+Project-1 (BTCS 603-18)
+Compiler Design Lab (BTCS 604-18)
+Artificial Intelligence Lab (BTCS 605-18)
+Elective-II Cloud Computing Lab (BTCS 613-18)
+Elective-III Mobile Application Development Lab (BTCS 621-18)
+
+Sem 7 (2021)
+
+Network Security and Cryptography (BTCS 701-18)
+Data Mining and Data Warehousing (BTCS 702-18)
+Elective-IV Agile Software Development (BTCS 710-18)
+Elective-V Adhoc and Wireless Sensor Networks (BTCS 716-18)
+Open Elective-II (BTOE ***)
+Project-II (BTCS 703-18)
+Elective-IV Agile Software Development Lab (BTCS 711-18)
+Elective-V Adhoc and Wireless Sensor Networks Lab (BTCS 717-18)
+

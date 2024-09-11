@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating Systems (Theory & Lab)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Operating Systems (BTCS 402-18) - Theory</h1>
+
+    <section>
+        <h2>Detailed Contents</h2>
+
+        <h3>Module 1: Introduction</h3>
+        <ul>
+            <li>Concept of Operating Systems</li>
+            <li>Generations of Operating systems</li>
+            <li>Types of Operating Systems</li>
+            <li>OS Services, System Calls</li>
+            <li>Structure of an OS - Layered, Monolithic, Microkernel Operating Systems</li>
+            <li>Concept of Virtual Machine</li>
+            <li>Case study on UNIX and WINDOWS Operating System</li>
+        </ul>
+
+        <h3>Module 2: Processes</h3>
+        <ul>
+            <li>Definition, Process Relationship, Different states of a Process, Process State transitions, Process Control Block (PCB), Context switching</li>
+            <li>Thread: Definition, Various states, Benefits of threads, Types of threads, Concept of multithreads</li>
+            <li>Process Scheduling: Foundation and Scheduling objectives, Types of Schedulers, Scheduling criteria: CPU utilization, Throughput, Turnaround Time, Waiting Time, Response Time; Scheduling algorithms: Pre-emptive and Non-pre-emptive, FCFS, SJF, RR; Multiprocessor scheduling: Real Time scheduling: RM and EDF.</li>
+        </ul>
+
+        <h3>Module 3: Inter-process Communication</h3>
+        <ul>
+            <li>Critical Section, Race Conditions, Mutual Exclusion, Hardware Solution, Strict Alternation, Peterson’s Solution</li>
+            <li>The Producer/Consumer Problem, Semaphores, Event Counters, Monitors, Message Passing</li>
+            <li>Classical IPC Problems: Reader’s & Writer Problem, Dinning Philosopher Problem etc.</li>
+        </ul>
+
+        <h3>Module 4: Deadlocks</h3>
+        <ul>
+            <li>Definition, Necessary and sufficient conditions for Deadlock</li>
+            <li>Deadlock Prevention, Deadlock Avoidance: Banker’s algorithm</li>
+            <li>Deadlock detection and Recovery</li>
+        </ul>
+
+        <h3>Module 5: Memory Management</h3>
+        <ul>
+            <li>Basic concept, Logical and Physical address map</li>
+            <li>Memory allocation: Contiguous Memory allocation – Fixed and variable partition – Internal and External fragmentation and Compaction</li>
+            <li>Paging: Principle of operation – Page allocation – Hardware support for paging, Protection and sharing, Disadvantages of paging</li>
+            <li>Virtual Memory: Basics of Virtual Memory – Hardware and control structures – Locality of reference, Page fault, Working Set, Dirty page/Dirty bit – Demand paging, Page Replacement algorithms: Optimal, First in First Out (FIFO), Second Chance (SC), Not recently used (NRU) and Least Recently used (LRU)</li>
+        </ul>
+
+        <h3>Module 6: I/O Hardware & File Management</h3>
+        <h4>I/O Hardware</h4>
+        <ul>
+            <li>I/O devices, Device controllers, Direct memory access</li>
+            <li>Principles of I/O Software: Goals of Interrupt handlers, Device drivers, Device independent I/O software</li>
+            <li>Secondary-Storage Structure: Disk structure, Disk scheduling algorithms</li>
+        </ul>
+        <h4>File Management</h4>
+        <ul>
+            <li>Concept of File, Access methods, File types, File operation, Directory structure, File System structure</li>
+            <li>Allocation methods (contiguous, linked, indexed), Free Space Management (bit vector, linked list, grouping), directory implementation (linear list, hash table), efficiency and performance</li>
+            <li>Disk Management: Disk structure, Disk scheduling - FCFS, SSTF, SCAN, C-SCAN, Disk reliability, Disk formatting, Boot-block, Bad blocks</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Course Outcomes</h2>
+        <p>The student will be able to:</p>
+        <ol>
+            <li>Explain basic operating system concepts such as overall architecture, system calls, user mode and kernel mode</li>
+            <li>Distinguish concepts related to processes, threads, process scheduling, race conditions and critical sections</li>
+            <li>Analyze and apply CPU scheduling algorithms, deadlock detection and prevention algorithms</li>
+            <li>Examine and categorize various memory management techniques like caching, paging, segmentation, virtual memory, and thrashing</li>
+            <li>Design and implement file management system</li>
+            <li>Appraise high-level operating systems concepts such as file systems, disk-scheduling algorithms and various file systems</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Suggested Books</h2>
+        <ul>
+            <li>Operating System Concepts Essentials by Avi Silberschatz, Peter Galvin, Greg Gagne</li>
+            <li>Operating Systems: Internals and Design Principles by William Stallings</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Reference Books</h2>
+        <ul>
+            <li>Operating System: A Design-oriented Approach by Charles Crowley</li>
+            <li>Operating Systems: A Modern Perspective by Gary J. Nutt</li>
+            <li>Design of the Unix Operating Systems by Maurice Bach</li>
+            <li>Understanding the Linux Kernel by Daniel P. Bovet, Marco Cesati</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <h1>Operating Systems Lab (BTCS 404-18)</h1>
+
+    <section>
+        <h2>List of Experiments</h2>
+        <ol>
+            <li>Installation Process of various operating systems.</li>
+            <li>Implementation of CPU scheduling algorithms to find turnaround time and waiting time. a) FCFS b) SJF c) Round Robin (pre-emptive) d) Priority.</li>
+            <li>Virtualization, Installation of Virtual Machine Software and installation of Operating System on Virtual Machine.</li>
+            <li>Commands for files & directories: cd, ls, cp, md, rm, mkdir, rmdir. Creating and viewing files using cat. File comparisons. Disk related commands: checking disk free spaces. Processes in linux, connecting processes with pipes, background processing, managing multiple processes. Background process: changing process priority, scheduling of processes at command, batch commands, kill, ps, who, sleep. Printing commands, grep, fgrep, find, sort, cal, banner, touch, file. File related commands ws, sat, cut, grep.</li>
+            <li>Shell Programming: Basic of shell programming, various types of shell, Shell Programming in bash, conditional & looping statement, case statements, parameter passing and arguments, shell variables, shell keywords, creating shell programs for automate system tasks, report printing.</li>
+            <li>Implementation of Bankers algorithm for the purpose of deadlock avoidance.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Course Outcomes</h2>
+        <p>The student will be able to:</p>
+        <ol>
+            <li>Understand and implement basic services and functionalities of the operating system</li>
+            <li>Analyze and simulate CPU Scheduling Algorithms like FCFS, Round Robin, SJF, and Priority</li>
+            <li>Implement commands for files and directories</li>
+            <li>Understand and implement the concepts of shell programming</li>
+            <li>Simulate file allocation and organization techniques</li>
+            <li>Understand the concepts of deadlock in operating systems and implement them in multiprogramming system</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Reference Books</h2>
+        <ul>
+            <li>Operating Systems: Design and Implementation by Albert S. Woodhull and Andrew S. Tanenbaum</li>
+        </ul>
+    </section>
+
+</body>
+</html>
