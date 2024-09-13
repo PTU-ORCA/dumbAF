@@ -19,7 +19,7 @@ We would be thankful if you contribute! We are open to contributions from everyo
 1. **Fork** the repository: [Fork](https://github.com/PTU-ORCA/dumbaf/fork)
 2. **Clone** the forked repository to your local machine:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/rancho.git
+   git clone https://github.com/YOUR-USERNAME/dumbAF.git
    ```
 3. **Create a new branch** for your changes:
    ```bash
