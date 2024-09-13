@@ -16,7 +16,7 @@ Visit: [dumbAF](https://ptu-orca.github.io/dumbaf)
 
 We would be thankful if you contribute! We are open to contributions from everyone. If you have resources or improvements to share, follow these steps to contribute:
 
-1. **Fork** the repository: [Fork Rancho](https://github.com/PTU-ORCA/dumbaf/fork)
+1. **Fork** the repository: [Fork](https://github.com/PTU-ORCA/dumbaf/fork)
 2. **Clone** the forked repository to your local machine:
    ```bash
    git clone https://github.com/YOUR-USERNAME/rancho.git
