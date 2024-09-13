@@ -1,8 +1,8 @@
 ![thumb](https://github.com/user-attachments/assets/c4bb2db7-4ddf-4413-88b8-5cc4d13d26b1)
 
-# Project Rancho
+# Project dumbAF
 
-**Project Rancho** is an initiative by **Team PTU ORCA** to provide students with a comprehensive resource hub. It includes:
+**Project dumbAF** is an initiative by **Team PTU ORCA** to provide students with a comprehensive resource hub. It includes:
 
 - **Previous Year Questions (PYQ)**
 - **Syllabus**
@@ -11,13 +11,12 @@
 
 Explore everything you need for academic success, all in one place!
 
-Visit: [PTU ORCA Rancho](https://ptu-orca.github.io/rancho)
-
+Visit: [dumbAF](https://ptu-orca.github.io/dumbaf)
 ## Contribution
 
 We would be thankful if you contribute! We are open to contributions from everyone. If you have resources or improvements to share, follow these steps to contribute:
 
-1. **Fork** the repository: [Fork Rancho](https://github.com/PTU-ORCA/rancho/fork)
+1. **Fork** the repository: [Fork Rancho](https://github.com/PTU-ORCA/dumbaf/fork)
 2. **Clone** the forked repository to your local machine:
    ```bash
    git clone https://github.com/YOUR-USERNAME/rancho.git
@@ -35,6 +34,6 @@ We would be thankful if you contribute! We are open to contributions from everyo
    ```bash
    git push origin your-branch-name
    ```
-6. Submit a **pull request** to the main repository: [Submit PR](https://github.com/PTU-ORCA/rancho/pulls)
+6. Submit a **pull request** to the main repository: [Submit PR](https://github.com/PTU-ORCA/dumbaf/pulls)
 
 We appreciate all contributions, whether big or small! 🙌
