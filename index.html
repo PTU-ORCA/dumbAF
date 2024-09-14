@@ -1,172 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PTU ORCA RANCHO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            background-color: white;
-            overflow-x: hidden;
-
-        }
-        .main-content {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .text-container {
-            text-align: center;
-            position: relative;
-            margin-bottom: 2rem;
-        }
-        .ptu-orca {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 2rem;
-            color: #000;
-            position: absolute;
-            top: -40px;
-            left: 0;
-            width: 100%;
-        }
-        .rancho {
-            font-size: 24rem;
-            font-weight: bold;
-            color: black;
-            margin: 0;
-        }
-        .buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            justify-content: center;
-        }
-        .btn {
-            padding: 0.5rem 1rem;
-            font-size: 1rem;
-            cursor: pointer;
-            background-color: black;
-            color: white;
-            border: 2px solid black;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .btn:hover {
-            background-color: white;
-            color: black;
-        }
-        .semester-container {
-            display: none;
-            text-align: center;
-        }
-        .semester-row {
-            margin-bottom: 1rem;
-        }
-        .semester-link {
-            color: blue;
-            text-decoration: none;
-            margin: 0 0.5rem;
-        }
-        footer {
-            background-color: #ffffff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        footer a {
-            color: #007bff; 
-            text-decoration: none;
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 1200px) {
-            .rancho {
-                font-size: 8rem;
-            }
-        }
-    
-        @media (max-width: 1024px) {
-            .rancho {
-                font-size: 8rem;
-            }
-        }
-        @media (max-width: 992px) {
-            .rancho {
-                font-size: 8rem;
-                }
-            }
-        @media (max-width: 768px) {
-            .rancho {
-                font-size: 6rem;
-            }
-            .btn {
-                font-size: 0.9rem;
-            }
-        }
-        @media (max-width: 480px) {
-            .ptu-orca {
-                font-size: 1.5rem;
-            }
-            .rancho {
-                font-size: 4rem;
-            }
-            .btn {
-                padding: 0.5rem;
-                font-size: 0.8rem;
-            }
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dumb AF</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="main-content">
-        <div class="text-container">
-            <div class="ptu-orca">PTU ORCA</div>
-            <h1 class="rancho">RANCHO</h1>
+      <div class="text-container">
+        <h1 class="rancho">dumbAF</h1>
+      </div>
+      <div class="buttons">
+        <button class="cse-btn" onclick="toggleSemesters('cse')">CSE</button>
+        <!-- <button class="btn" >BCA</button>
+        <button class="btn" >
+          Button 3
+        </button>
+        <button class="btn" >
+          Button 4
+        </button> -->
+      </div>
+      <div id="semesters" class="semester-container">
+        <div class="semester-row">
+          <a href="DATA\sem1\sem1.html" class="semester-link">Sem 1</a>
+          <a href="DATA\sem2\sem2.html" class="semester-link">Sem 2</a>
+          <a href="DATA\sem3\sem3.html" class="semester-link">Sem 3</a>
+          <a href="DATA\sem4\sem4.html" class="semester-link">Sem 4</a>
+        
+          <a href="DATA\sem5\sem5.html" class="semester-link">Sem 5</a>
+          <a href="DATA\sem6\sem6.html" class="semester-link">Sem 6</a>
+        
+          <a href="DATA\sem7\sem7.html" class="semester-link">Sem 7</a>
         </div>
-        <div class="buttons">
-            <button class="btn" onclick="toggleSemesters('cse')">CSE</button>
-            <button class="btn" onclick="toggleSemesters('bca')">BCA</button>
-            <button class="btn" onclick="toggleSemesters('blank1')">Button 3</button>
-            <button class="btn" onclick="toggleSemesters('blank2')">Button 4</button>
-        </div>
-        <div id="semesters" class="semester-container">
-            <div class="semester-row">
-                <a href="DATA\sem1\sem1.html" class="semester-link">Sem 1</a>
-                <a href="DATA\sem2\sem2.html" class="semester-link">Sem 2</a>
-                <a href="DATA\sem3\sem3.html" class="semester-link">Sem 3</a>
-                <a href="DATA\sem4\sem4.html" class="semester-link">Sem 4</a>
-            </div>
-            <div class="semester-row">
-                <a href="DATA\sem5\sem5.html" class="semester-link">Sem 5</a>
-                <a href="DATA\sem6\sem6.html" class="semester-link">Sem 6</a>
-            </div>
-            <div class="semester-row">
-                <a href="DATA\sem7\sem7.html" class="semester-link">Sem 7</a>
-            </div>
-        </div>
+      </div>
     </div>
 
     <script>
-        function toggleSemesters(course) {
-            var semesterContainer = document.getElementById('semesters');
-            if (semesterContainer.style.display === 'none' || semesterContainer.style.display === '') {
-                semesterContainer.style.display = 'block';
-            } else {
-                semesterContainer.style.display = 'none';
-            }
+      function toggleSemesters(course) {
+        var semesterContainer = document.getElementById("semesters");
+        if (
+          semesterContainer.style.display === "none" ||
+          semesterContainer.style.display === ""
+        ) {
+          semesterContainer.style.display = "block";
+        } else {
+          semesterContainer.style.display = "none";
         }
+      }
     </script>
     <footer>
-        <p>Made with 💛 by <a href="https://github.com/ptu-orca" target="_blank" rel="noopener"> PTU ORCA </a></p>
+      <p>
+        Made by Sir Ranchoddas Shamaldas Chanchad
+      </p>
     </footer>
-
-</body>
+  </body>
 </html>
