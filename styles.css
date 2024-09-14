@@ -14,6 +14,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .text-container {
   text-align: center;
@@ -22,10 +23,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
   font-style: italic;
 }
-.rancho {
+.dumbaf {
   font-size: 24rem;
   font-weight: bold;
   color: rgb(0, 71, 90);
@@ -38,7 +38,9 @@ html {
   margin-bottom: 2rem;
   justify-content: center;
 }
-.btn {
+/* styles in case of need to add more departments (button)
+try to maintain same styles as CSE button
+/* .btn {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
@@ -50,7 +52,7 @@ html {
 .btn:hover {
   background-color: white;
   color: black;
-}
+} */
 .cse-btn {
   padding: 1rem 2rem;
   font-size: 1rem;
@@ -75,7 +77,7 @@ html {
   margin-bottom: 1rem;
 }
 .semester-link {
-  color: rgb(96, 96, 170);
+  color: rgb(29, 29, 138);
   text-decoration: none;
   margin: 0 0.5rem;
 }
@@ -90,23 +92,23 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
-  .rancho {
+  .dumbaf {
     font-size: 8rem;
   }
 }
 
 @media (max-width: 1024px) {
-  .rancho {
+  .dumbaf {
     font-size: 8rem;
   }
 }
 @media (max-width: 992px) {
-  .rancho {
+  .dumbaf {
     font-size: 8rem;
   }
 }
 @media (max-width: 768px) {
-  .rancho {
+  .dumbaf {
     font-size: 6rem;
   }
   .btn {
@@ -117,7 +119,7 @@ footer {
   .ptu-orca {
     font-size: 1.5rem;
   }
-  .rancho {
+  .dumbaf {
     font-size: 4rem;
   }
   .btn {
