@@ -1,0 +1,129 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow-x: hidden;
+}
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.text-container {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.dumbaf {
+  font-size: 24rem;
+  font-weight: bold;
+  color: rgb(0, 71, 90);
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+/* styles in case of need to add more departments (button)
+try to maintain same styles as CSE button
+/* .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+} */
+.cse-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(0, 71, 90);
+  color: white;
+  border: 2px solid rgb(0, 71, 90);
+  border-radius: 84px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cse-btn:hover {
+  background-color: white;
+  color: rgb(0, 71, 90);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+.semester-container {
+  display: none;
+  text-align: center;
+}
+.semester-row {
+  margin-bottom: 1rem;
+}
+.semester-link {
+  color: rgb(29, 29, 138);
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+footer {
+  text-align: center;
+}
+
+/* footer a {
+  color: #007bff;
+  text-decoration: none;
+} */
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .dumbaf {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dumbaf {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 992px) {
+  .dumbaf {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 768px) {
+  .dumbaf {
+    font-size: 6rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .ptu-orca {
+    font-size: 1.5rem;
+  }
+  .dumbaf {
+    font-size: 4rem;
+  }
+  .btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
