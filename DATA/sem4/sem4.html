@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dumbAF - Sem 4</title>
+    <title>dumbAF - SEM 4</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0; 
+            margin: 0;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
+            min-height: 100vh;
         }
 
         header {
@@ -26,82 +27,185 @@
             margin: 0;
         }
 
-        .pyq-list {
-            display: flex;
-            flex-wrap: wrap; 
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        .pyq-item {
-            background-color: #e0e0e0;
-            padding: 10px 20px;
-            margin: 5px;
-            border-radius: 5px;
-        }
-
         main {
-            flex: 1; 
+            flex: 1;
             padding: 20px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
         }
 
-        .subject-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .subject-list li {
-            margin-bottom: 10px;
-        }
-
-        .subject-list a {
-            color: #007bff; 
+        .subject {
+            color: rgb(0, 71, 90);
             text-decoration: none;
         }
 
         footer {
-            background-color: #ffffff;
             padding: 10px;
             text-align: center;
         }
 
-        footer a {
-            color: #007bff; 
-            text-decoration: none;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            font-family: Arial, sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        table thead tr {
+            background-color: rgb(0, 71, 90);
+            color: #ffffff;
+            text-align: left;
+        }
+
+        table th,
+        table td {
+            padding: 12px 15px;
+        }
+
+        table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid rgb(0, 71, 90);
+        }
+
+        table tbody tr:hover {
+            background-color: #f1f1f1;
         }
     </style>
 </head>
-<body>
 
+<body>
     <header>
-        <h1>dumbAF</h1>
-        <h2>Sem 4</h2> 
+        <h1><a class="subject" href="../../index.html">dumbAF</a></h1>
+        <h2 class="subject">SEM 4</h2>
     </header>
 
     <main>
-        <div class="pyq-list">
-            <div class="pyq-item">PYQ 1</div>
-            <div class="pyq-item">PYQ 2</div>
-            <div class="pyq-item">PYQ 3</div>
-            <div class="pyq-item">PYQ 4</div>
-            <div class="pyq-item">PYQ 5</div>
-            <div class="pyq-item">PYQ 6</div>
-        </div>
-
-        <ul class="subject-list">
-            <li><a href="m4.html">Discrete Mathematics (BTCS 401-18)</a></li>
-            <li><a href="coa.html">Computer Organization & Architecture (BTES 401-18)</a></li>
-            <li><a href="os.html">Operating Systems (BTCS 402-18)</a></li>
-            <li><a href="daa.html">Design & Analysis of Algorithms (BTCS 403-18)</a></li>
-            <li><a href="uhv.html">Universal Human Values (HSMC 122-18)</a></li>
-            <li><a href="#">Environmental Sciences (EVS 101-18)</a></li>
-        </ul>
-
+        <table>
+            <thead>
+                <tr>
+                    <th>Courses</th>
+                    <th>PYQs</th>
+                    <th>Syllabus</th>
+                    <th>Books</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="subject">
+                        Discrete Mathematics (BTCS 401-18)
+                    </td>
+                    <td>
+                        <a href="m4.html">PYQ 1</a>, <a href="m4.html">PYQ 2</a>,
+                        <a href="m4.html">PYQ 3</a>, <a href="m4.html">PYQ 4</a>,
+                        <a href="m4.html">PYQ 5</a>, <a href="m4.html">PYQ 6</a>
+                    </td>
+                    <td>
+                        <a href="m4.html">View</a>
+                    </td>
+                    <td>
+                        <a href="m4.html">Book 1</a>,
+                        <a href="m4.html">Book 2</a>,
+                        <a href="m4.html">Book 3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subject">Computer Organization & Architecture (BTES 401-18)</td>
+                    <td>
+                        <a href="coa.html">PYQ 1</a>, <a href="coa.html">PYQ 2</a>,
+                        <a href="coa.html">PYQ 3</a>, <a href="coa.html">PYQ 4</a>,
+                        <a href="coa.html">PYQ 5</a>, <a href="coa.html">PYQ 6</a>
+                    </td>
+                    <td>
+                        <a href="coa.html">View</a>
+                    </td>
+                    <td>
+                        <a href="coa.html">Book 1</a>,
+                        <a href="coa.html">Book 2</a>,
+                        <a href="coa.html">Book 3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subject">
+                        Operating Systems (BTCS 402-18)
+                    </td>
+                    <td>
+                        <a href="os.html">PYQ 1</a>, <a href="os.html">PYQ 2</a>,
+                        <a href="os.html">PYQ 3</a>, <a href="os.html">PYQ 4</a>,
+                        <a href="os.html">PYQ 5</a>, <a href="os.html">PYQ 6</a>
+                    </td>
+                    <td>
+                        <a href="os.html">View</a>
+                    </td>
+                    <td>
+                        <a href="os.html">Book 1</a>,
+                        <a href="os.html">Book 2</a>,
+                        <a href="os.html">Book 3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subject">
+                        Design & Analysis of Algorithms (BTCS 403-18)
+                    </td>
+                    <td>
+                        <a href="daa.html">PYQ 1</a>, <a href="daa.html">PYQ 2</a>,
+                        <a href="daa.html">PYQ 3</a>, <a href="daa.html">PYQ 4</a>,
+                        <a href="daa.html">PYQ 5</a>, <a href="daa.html">PYQ 6</a>
+                    </td>
+                    <td>
+                        <a href="daa.html">View</a>
+                    </td>
+                    <td>
+                        <a href="daa.html">Book 1</a>,
+                        <a href="daa.html">Book 2</a>,
+                        <a href="daa.html">Book 3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subject">
+                        Universal Human Values (HSMC 122-18)
+                    </td>
+                    <td>No PYQs ;(</td>
+                    <td>
+                        No Syllabus ;(
+                    </td>
+                    <td>
+                        No Books ;(
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subject">
+                        Environmental Sciences (EVS 101-18)
+                    </td>
+                    <td>No PYQs ;(</td>
+                    <td>
+                        No Syllabus ;(
+                    </td>
+                    <td>
+                        No Books ;(
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>
-        <p>Made with 💛 by <a href="https://github.com/ptu-orca" target="_blank" rel="noopener"> PTU ORCA </a></p>
+        <p>
+            You could've chosen any other major but you chose engineering to
+            pursue.. smh.. 🤷🏻‍♂️
+        </p>
     </footer>
 
 </body>
+
 </html>
